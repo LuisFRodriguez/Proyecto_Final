@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(231, 231, 231);
+  }
+
+
+.bg_form{
+    background-color: white;
+    box-shadow: 8px 15px 16px 6px rgb(160, 160, 160);
+    width: 50%;
+    padding: 80px;
+}
+
+
+.inputs{
+    border-bottom: 2px solid #58b5ef !important; 
+}

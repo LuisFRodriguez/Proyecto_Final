@@ -18,8 +18,8 @@ export class ProductRoutes {
     const controller = new ProductController( productService);
 
     // Definir las rutas
-    router.get( '/', controller.getProducts );
-    router.post( '/',[ AuthMiddleware.validateJWT ],controller.createProduct );
+    router.get( '/getproducts', controller.getProducts );
+    router.post( '/createproduct',[ AuthMiddleware.validateJWT ],controller.createProduct );
 
 
 

@@ -11,6 +11,7 @@ export class RegisterUserDto {
     public password: string,
   ) {}
 
+  
   static create( object: { [key:string]:any } ): [string?, RegisterUserDto?] {
     const { name, email, password } = object;
 
